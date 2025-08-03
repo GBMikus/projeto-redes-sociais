@@ -11,3 +11,9 @@ main {height: 100vh; position: relative;}
 section#telef {height: 627px; width: 311px; background-color: blue; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background: url('imagens/frame-iphone.png'); background-repeat: no-repeat;}
 
 iframe#tela {position: relative; top: 80px; left: 22px; height: 472px; width: 268px;}
+
+section#resocs {text-align: right;}
+
+section#resocs img {border-radius: 50%; width: 50px; margin: 10px; box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); box-sizing: border-box;}
+
+section#resocs img:hover {border: 2px solid rgba(255, 255, 255, 0.6); transform: translate(-3px, -3px); box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6); transition: transform 0.25s, border 0.25s;}
